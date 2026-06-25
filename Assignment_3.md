@@ -29,22 +29,3 @@ Below is the structured V-Model mapping showing the direct correlation between V
 * RAD Model Strengths: Rapid feedback, high flexibility, reduced cycle time.
 * RAD Model Weaknesses: Heavy testing volatility, high dependency on skills.
 
-DEVELOPMENT PHASES (Verification)             TESTING PHASES (Validation)
-=================================             ===========================
-
-[ Requirements Analysis ] -------------------------> [ Acceptance Testing ]
-(Role: Product Owner / Tester)                      (Role: End Users / QA)
-|                                                      ^
-v 
-[ System Design (HLD) ] ---------------------------> [ System Testing ]
-(Role: System Architect / Tester)                   (Role: QA Testing Team)
-|                                                      ^
-v                                                     ||
-[ Architecture Design (LLD) ] ---------------------> [ Integration Testing ]
-(Role: Technical Lead / Tester)                     (Role: Devs / QA Testers)
-|                                                      ^
-v                                                      |
-[ Coding / Implementation ] -----------------------> [ Unit Testing ]
-(Role: Software Developers)                         (Role: Developers)
-\                                                     /
-__________________ [ CODING BUILD ] _______________/
